@@ -3,7 +3,7 @@
 ### Authentication 
 Author: Sana Ishaqat
 
-[tests report (actions)](https://github.com/SanaIshaqat/api-server/actions)
+[tests report (actions)](https://github.com/SanaIshaqat/basic-auth/actions)
 
 [back-end (heroku proof of life)](https://sana-basic-auth-401.herokuapp.com/alive)
 
