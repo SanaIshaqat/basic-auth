@@ -1,5 +1,11 @@
-'use strict';
+function handle404(req, res, next) {
 
-module.exports = (req, res, next) => {
-  res.status(404).json({ error: '404 not found' });
-};
+  const errorObject = {
+    status: 404,
+    message: 'Sorry, the page you requested was not found :('
+  }
+
+  res.status(404).json(errorObject);
+}
+
+module.exports = handle404;

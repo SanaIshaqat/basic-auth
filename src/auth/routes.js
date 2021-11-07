@@ -6,6 +6,7 @@ const {UsersModel} = require('./models/index');
 const basicAuth = require('./middleware/basic')
 const router = express.Router();
 
+
 router.post('/signup', async (req, res) => {
 
     try {

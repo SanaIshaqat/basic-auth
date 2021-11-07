@@ -1,11 +1,10 @@
 
 'use strict';
-// 3rd party modules
+
 require('dotenv').config()
 
-// internal modules
 const server = require('./src/server');
-const {db} = require('./src/auth/models/index'); //destructuring es6
+const {db} = require('./src/auth/models/index');
 
 
 db.sync().then(()=> {
