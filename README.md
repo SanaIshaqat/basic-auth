@@ -3,13 +3,14 @@
 ### Authentication 
 Author: Sana Ishaqat
 
-[tests report (actions)](https://github.com/SanaIshaqat/api-server/actions)
+[tests report (actions)](https://github.com/SanaIshaqat/basic-auth/actions)
 
-[back-end (heroku proof of life)](https://sana-api-server-04.herokuapp.com/alive)
+[back-end (heroku proof of life)](https://sana-basic-auth-401.herokuapp.com/alive)
 
-[back-end (food)](https://sana-api-server-04.herokuapp.com/food)
+[back-end (non-exist routes)](https://sana-basic-auth-401.herokuapp.com/bla)
+[back-end (Error)](https://sana-basic-auth-401.herokuapp.com/error)
 
-[PR Link](https://github.com/SanaIshaqat/api-server/pull/1)
+[PR Link](https://github.com/SanaIshaqat/basic-auth/pull/1)
 [Final PR](https://github.com/SanaIshaqat/api-server/pull/2)
 ### Setup
 .env requirements
@@ -23,7 +24,7 @@ Returns Object
 {
   "status": "running",
   "port": 3030,
-  "domain": "sanaishaqat-server-deploy-prod.herokuapp.com"
+  "domain": "https://sana-basic-auth-401.herokuapp.com"
 }
 
 ### Tests
