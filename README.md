@@ -11,7 +11,8 @@ Author: Sana Ishaqat
 [back-end (Error)](https://sana-basic-auth-401.herokuapp.com/error)
 
 [PR Link](https://github.com/SanaIshaqat/basic-auth/pull/1)
-[Final PR](https://github.com/SanaIshaqat/api-server/pull/2)
+
+[Final PR](https://github.com/SanaIshaqat/basic-auth/pull/3)
 ### Setup
 .env requirements
 PORT - Port Number
